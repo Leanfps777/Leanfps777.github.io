@@ -1,0 +1,113 @@
+body {
+     background-color: white;;
+}
+
+.logo {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin: auto;
+    width: 128px;
+    top: 50px;
+}
+
+.titulo {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:"Futura Book";
+    font-size: 1rem;
+    color: #005aa3;
+    user-select: none;
+    line-height: 1;
+    top: 115px;
+    font-weight: normal;
+    font-family: nome;
+}
+
+.CPF {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 100px;
+    font-size: 1.1rem;
+    color: #4d7880;
+    font-weight: normal;
+    box-sizing: border-box;
+    font-family:"Futura Book";
+}
+
+.linha-laranja {
+        display: flex;
+        position: relative;
+        height: 2px;
+        background-color: orange;
+        margin: auto; /* Centraliza horizontalmente */
+        width: 360px; /* Define a largura da linha */
+        top: 150px;
+}
+
+.acesso {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 360px;
+    height: 40px;
+    top: 170px;
+    background-color: orange;
+    border: 6px;
+    text-decoration: none;
+    color: white;
+    font-family:"Futura Book";
+    border-radius: 2px;
+}
+
+.novo {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 260px;
+    font-family:"Futura Book";
+    color: #005aa3;
+}
+
+.cadastro {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 270px;
+    color: #005aa3;
+    font-family:"Futura Book";
+}
+
+.ajuda {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    right: 75px;
+    width: 30px;
+    top: 255px;
+}
+
+.ajuda2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 230px;
+    color: #005aa3;
+    font-family:"Futura Book";
+}

@@ -1,0 +1,164 @@
+body {
+    background-color: white;;
+}
+
+.logo {
+   display: flex;
+   position: relative;
+   align-items: center;
+   margin: auto;
+   width: 128px;
+   top: 50px;
+}
+
+.titulo {
+   display: flex;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-family:"Futura Book";
+   font-size: 1rem;
+   color: #005aa3;
+   user-select: none;
+   line-height: 1;
+   top: 115px;
+   font-weight: normal;
+}
+
+.Validacao {
+   display: flex;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   top: 100px;
+   font-size: 1.1rem;
+   color: #4d7880;
+   font-weight: bold;
+   box-sizing: border-box;
+   font-family:"Futura Book";
+   right: 100px;
+
+}
+
+.texto {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 85px;
+    font-size: 1.1rem;
+    color: #4d7880;
+    font-weight: normal;
+    box-sizing: border-box;
+    font-family:"Futura Book";
+ 
+ }
+
+.acesso {
+   display: flex;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   width: 360px;
+   height: 40px;
+   top: 230px;
+   background-color: orange;
+   border: 6px;
+   text-decoration: none;
+   color: white;
+   font-family:"Futura Book";
+   border-radius: 2px;
+}
+
+.ajuda {
+   display: flex;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   right: 75px;
+   width: 30px;
+   top: 235px;
+}
+
+.ajuda2 {
+   display: flex;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   top: 210px;
+   color: #005aa3;
+   font-family:"Futura Book";
+}
+
+.email {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 110px;
+    font-size: 1.1rem;
+    color: #4d7880;
+    font-weight: normal;
+    box-sizing: border-box;
+    font-family:"Futura Book";
+    right: 110px;
+}
+
+.sms {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 160px;
+    font-size: 1.1rem;
+    color: #4d7880;
+    font-weight: normal;
+    box-sizing: border-box;
+    font-family:"Futura Book";
+    right: 115px;
+}
+
+.bolinha {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid gray; /* Borda cinza */
+    cursor: pointer;
+    top: -25px;
+}
+
+.bolinha2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid gray; /* Borda cinza */
+    cursor: pointer;
+    top: 45px;
+}
+
+/* Estilizando a bolinha quando clicada */
+.bolinha.clicked {
+    background-color: #005aa3; /* Fica azul quando clicada */
+}

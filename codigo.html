@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa tem></title>
+    <link rel="stylesheet" href="codigo.css">
+    <link href="//db.onlinewebfonts.com/c/b46bb1fc76216f5cd90457d0451dbee4?family=Futura+Book" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div>
+        <h1 class="titulo">
+            Aplicativo Caixa Tem
+        </h1>
+        <img class="logo" src="Caixa_Econômica_Federal_logo.svg.png">
+        <h2 class="Validacao">
+Validação de login
+        </h2>
+        <P class="texto">Para prosseguir com o seu login, enviaremos um código de validação para o contato abaixo:</P>
+        <P class="texto2"></P>
+        <p class="email">
+            Enviar via email:
+        </p>
+        <p class="sms">
+            Enviar via SMS:
+        </p>
+<div>
+    <a href="login/login.html" class="acesso">Enviar código</a>
+</div>
+<div>
+    <img src="https://login2.caixa.gov.br/auth/resources/7.3.3.ga/login/LoginCaixa2Passos/images/icons/interrogacao.svg" class="ajuda">
+    <a href="meuovo" class="ajuda2">Preciso de ajuda</a>
+</div>
+<div class="bolinha" onclick="tornarAzul()"></div>
+<div class="bolinha2" onclick="tornarAzul()"></div>
+<script>
+    function tornarAzul() {
+        // Adicionar a classe "clicked" à bolinha para torná-la azul
+        event.target.classList.add('clicked');
+        // Remover o evento de clique para evitar alterações adicionais
+        event.target.onclick = null;
+    }
+</script>
+</body>
+</html>

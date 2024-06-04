@@ -1,0 +1,440 @@
+body {
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #243e58;
+    width: 100%;
+    height: 75px;
+}
+
+header img {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: -45px;
+    width: 150px;
+    height: 150px;
+}
+
+.fotos {
+    width: 1000px;
+    height: 300px;
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 150px;
+  }
+.foto1 {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    border: solid 1px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.foto1 img {
+    width: 600px;
+    height: 300px;
+}
+
+
+.galeria {
+    width: 1200px;    
+    height: 500px;
+    border: none;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 300px;
+    
+}
+
+.galeria h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    font-style: italic;
+    white-space: nowrap;
+    top: -150px;
+    width: 500px;
+    text-align: center;
+    left: 280px;
+}
+
+.galeria h2 {
+    position: relative;
+    right: 345px;
+    top: -15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    left: -200px;
+    white-space: nowrap;
+}
+
+.galeria h3 {
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 17px;
+    right: 50px;
+    top: -52px;
+    white-space: nowrap;
+    
+}
+
+.insta {
+    width: 130px;
+    position: relative;
+    top: 60px;
+    right: 150px;
+}
+
+.zap {
+    width: 50px;
+    position: relative;
+    right: 260px;
+    top: 55px;
+}
+
+.numero {
+    position: relative;
+    left: -390px;
+    top: 40px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+.user {
+    position: relative;
+    top: 40px;
+    white-space: nowrap;
+    left: 85px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.bio {
+    width: 100%;
+    height: 500px;
+    border: solid 1px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 250px;
+    background-color: #243e58;
+    margin-bottom: 300px;
+}
+
+.bio img {
+    width: 100px;
+    height: 100px;
+    border: solid 3px white;
+    border-radius: 80px;
+    position: relative;
+    top: -150px;
+    left: 880px;
+}
+
+.bio p {
+    font-size: 23px;
+    color: aliceblue;
+    height: 100px;
+}
+
+.mapa {
+    width: 1000px;
+    height: 500px;
+    border: solid 2px;
+    border-radius: 10px;
+    color: #243e58;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 10px;
+    margin-bottom: 300px;
+}
+
+.maps {
+    position: relative;
+    left: 1100px;
+    top: 50px;
+}
+
+.mapa h1 {
+    position: relative;
+    top: -200px;
+    left: 800px;
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.mapa p {
+    position: relative;
+    top: -150px;
+    white-space: nowrap;
+    left: 400px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+.mapa h2 {
+    position: relative;
+    right: 250px;
+    top: 40px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hr {
+   position: relative;
+   right: 850px;
+   font-size: 25px;
+   top: -50px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   white-space: nowrap;
+}
+
+.hr1 {
+    position: relative;
+    right: 1150px;
+    white-space: nowrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.mapa h3 {
+    position: relative;
+    right: 515px;
+    top: -100px;
+    white-space: nowrap;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.slides img {
+    width: 100px;
+    height: 100px;
+}
+
+.slides-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    visibility: hidden;
+}
+
+.slides-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    visibility: hidden;
+}
+
+.slides-item img {
+    width: 100px;
+    display: flex;
+}
+
+.botão {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    right: 550px;
+    top: -320px;
+    border-radius: 20px;
+}
+
+
+@media (max-width: 720px) {
+
+    .fotos {
+        visibility: hidden;
+    }
+
+    .fotos img {
+        visibility: hidden;
+    }
+
+    .galeria {
+        width: 350px;
+        height: 300px;
+        border: none;
+    }
+
+    .galeria h1 {
+        position: relative;
+        white-space: nowrap;
+        font-size: 15px;
+        width: 30px;
+        height: 50px;
+        left: 275px;
+        top: -110px;
+    }
+
+    .zap {
+        left: 300px;
+        top: 10px;    
+ 
+    }
+
+    .insta {
+        top: 150px;
+        left: -260px;
+    }
+
+    .galeria h2 {
+        left: 355px;
+        top: -60px;
+        font-size: 18px;
+        white-space: nowrap;
+        
+    }
+
+    .galeria h3 {
+        font-size: 18px;
+        top: 40px;
+        right: 170px;
+    }
+
+    .numero {
+        left: 115px;
+        top: -10px;
+    }
+
+    .user {
+        top: 130px;
+        left: -30px;
+    }
+
+    .botão {
+        top: -250px;
+        left: -340px;
+    }
+
+
+    .mapa {
+        width: 350px;
+        height: 600px;
+    }
+
+    .maps {
+        left: 865px;
+        top: 115px;
+    }
+
+    .mapa p {
+        visibility: hidden;
+    }
+
+    .mapa h1 {
+        left: 560px;
+        top: -90px;
+    }
+
+    .mapa h3 {
+        left: -250px;
+        top: -280px;
+    }
+
+    .hr {
+        left: -580px;
+        top: -230px;
+    }
+
+    .hr1 {
+        left: -880px;
+        top: -190px;
+    }
+
+    .bio img {
+        left: 150px;
+    }
+
+    .slides img {
+        width: 350px;
+        height: 300px;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        top: -450px;
+        border-radius: 8px;
+    }
+    
+    .slides-inner {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        visibility: visible;
+    }
+    
+    .slides-item {
+        min-width: 100%;
+        box-sizing: border-box;
+        visibility: visible;
+    }
+    
+    .slides-item img {
+        width: 350px;
+        display: flex;
+        visibility: visible;
+    }
+    
+    .prev {
+        left: 10px;
+        visibility: visible;
+
+    }
+    
+    .next {
+        right: 10px;
+        visibility: visible;
+
+    }
+    
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: rgb(255, 0, 0);
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .bio img {
+        width: 100px;
+        height: 100px;
+        border: solid 3px white;
+        border-radius: 80px;
+        position: relative;
+        top: -150px;
+    }
+
+    .bio p {
+        visibility: hidden;
+    }
+
+}
